@@ -1,0 +1,168 @@
+html{
+    margin: 0 0 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.wrapper{
+    box-shadow: black -10px 5px 70px;
+    background-color: white;
+    color: white;
+    width: 75%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.navbar {
+    margin-bottom: 10px;
+    border-bottom: lightgrey 1px solid;
+    background-position: left top;
+    background-repeat: repeat;
+    background-image: url("https://nava.hu/wp-content/plugins/hms-nava/common/styles/img/menu_background.png");
+}
+
+#logo {
+    left: 0;
+    position: relative;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+    width:100%;
+    max-height: 400px;
+    text-align: center;
+}
+
+.subjects{
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+#subjects{
+    margin: 0 auto;
+    position: relative;
+    font-size: 35px;
+    color: black;
+    font-family: 'Frank Ruhl Libre', serif;
+    margin-left: 30px;
+}
+
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(80%);
+    border-radius: 6px;
+    box-shadow: black -10px 5px 20px;
+    object-fit: cover;
+}
+
+
+
+.container:hover .image{
+    filter: grayscale(0%);
+    width: 210px;
+    height: 210px;
+    transition: height 0.5s, width 0.5s, filter 1s;
+}
+
+
+.container:hover .centered{
+    font-size: 38px;
+    transition: font-size 0.6s;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #ffffff;
+}
+
+.content{
+    width: 100%;
+    margin: 0 0 0 0;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.main-title{
+    color: white;
+    font-family: 'Frank Ruhl Libre', serif;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+#header-img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.9;
+    border-radius: 10px 10px 0 0;
+
+}
+
+h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 150px;
+    font-size: 28px;
+    color: white;
+}
+
+.fedezzfel{
+    font-family: 'Frank Ruhl Libre', serif;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: white;
+
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #1e2734;
+    position: relative;
+    bottom: 0;
+
+}
+
+
+
